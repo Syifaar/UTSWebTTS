@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #f4f4f9;
+}
+
+h1 {
+    color: #f4f4f9;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 85%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table1 {
+    max-width: 120%; /* Atur ini jika ingin maksimal sesuai dengan kontainer */
+    width: 750px; /* Tambahkan lebar yang lebih besar agar tabel lebih lebar */
+    float: left;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff20;
+}
+
+.table1 td {
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+
+
+.white1 {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    font-family: Arial;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.white2 {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    font-family: Arial;
+    border-collapse: collapse;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.num {
+    font-size: 10px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #218838;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+#message1 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #28a745;
+    margin-top: 10px;
+}
+
+#score {
+    font-weight: bold;
+    font-size: 18px;
+    color: #f4f4f9;
+    margin-top: 10px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pertanyaan {
+    font-size: 12px;
+    text-align: left;
+    color: #f4f4f9;
+    margin: 10px 0;
+}
+
+.pertanyaan h3 {
+    font-size: 1.1rem;
+    color: #f4f4f9;
+    margin-bottom: 5px;
+}
+
+.pertanyaan ol {
+    margin-left: 20px;
+}
+
+.pertanyaan li {
+    margin-bottom: 5px;
+}
+
+ol h4 {
+    font-size: 1rem;
+    color: #d1c4e9;
+    margin-bottom: 5px;
+}
